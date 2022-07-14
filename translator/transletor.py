@@ -5,6 +5,7 @@ from difflib import SequenceMatcher
 from difflib import get_close_matches
 data = json.load(open("data.json",'r'))
 
+
 class bcolors:
     PURPLE = '\033[95m'
     PINK = '\033[94m'
